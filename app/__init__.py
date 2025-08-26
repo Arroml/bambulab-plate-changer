@@ -16,6 +16,7 @@ def create_app():
 
     @app.route("/")
     def home():
-        return render_template("index.html")
+        current_job = {"name": "Testdruck", "Progress": 42}
+        return render_template("index.html", current_job=current_job)
 
     return app

@@ -1,0 +1,24 @@
+# Web Framework
+Flask==2.3.3
+bambulabs-api
+python-dotenv
+
+# Flask-Erweiterungen
+Flask-WTF==1.2.1          # Formulare
+Flask-Login==0.6.3        # Login-System (falls du irgendwann Auth brauchst)
+
+# Templates & Rendering
+Jinja2==3.1.2
+
+# Webserver (optional, aber empfohlen für Produktion statt dem Dev-Server)
+gunicorn==21.2.0
+
+# Utilities
+Werkzeug==2.3.7
+itsdangerous==2.1.2       # für sichere Tokens (kommt oft mit Flask)
+
+# Falls du Bootstrap/JQuery etc. über Flask einbinden willst
+Flask-Bootstrap==3.3.7.1   # optional
+
+# Debugging
+python-dotenv==1.0.0       # .env Dateien für Configs
